@@ -1,0 +1,454 @@
+<DirectDom>
+  <DirectDom type="Studio.Dom.DirectDom">
+    <VersionConverterInfo type="Studio.Dom.VersionConverterInfo">
+      <Version type="System.String">![CDATA[0016.0004.0000]]</Version>
+      <ConverterIDs>
+        <String type="System.String">![CDATA[RuleActionStatementCollection]]</String>
+        <String type="System.String">![CDATA[MultiScreensConverter]]</String>
+        <String type="System.String">![CDATA[ConnectivityRemoveExeConverter]]</String>
+        <String type="System.String">![CDATA[ConnectivityWeb1]]</String>
+        <String type="System.String">![CDATA[BringToFront]]</String>
+        <String type="System.String">![CDATA[ConnectivityState2Checked]]</String>
+        <String type="System.String">![CDATA[ConnectivitySelectedItem2Text]]</String>
+        <String type="System.String">![CDATA[ConnectivitySelectedTab2Text]]</String>
+        <String type="System.String">![CDATA[ConnectivityCaption2Text]]</String>
+        <String type="System.String">![CDATA[ConnectivityLastSelectedItem2Text]]</String>
+        <String type="System.String">![CDATA[ConnectivityInnerText2Text]]</String>
+        <String type="System.String">![CDATA[ConnectivityValue2Text]]</String>
+        <String type="System.String">![CDATA[ConnectivityRowcount2RowsCount]]</String>
+        <String type="System.String">![CDATA[ConnectivityRowscount2RowsCount]]</String>
+        <String type="System.String">![CDATA[ConnectivityProcessId2Id]]</String>
+        <String type="System.String">![CDATA[DirectLifeCycleEventArgsConvertor]]</String>
+        <String type="System.String">![CDATA[JSwingRichEdit2JSwingEditorPane]]</String>
+        <String type="System.String">![CDATA[ConnectivityClick2MouseClick]]</String>
+        <String type="System.String">![CDATA[ConnectivitySelected2Checked]]</String>
+        <String type="System.String">![CDATA[ConnectivityButtonClick2MouseClick]]</String>
+        <String type="System.String">![CDATA[ScreenElementsConverter]]</String>
+        <String type="System.String">![CDATA[ConnectivitySelectedItemPath2SelectedNodePath]]</String>
+        <String type="System.String">![CDATA[ProcessMonitoringRemovePropertyScore]]</String>
+        <String type="System.String">![CDATA[BalloonLocationAddPhysicalObject]]</String>
+        <String type="System.String">![CDATA[DBConnectionStringNewEncryption]]</String>
+        <String type="System.String">![CDATA[RemoveUniqeIDMethode]]</String>
+        <String type="System.String">![CDATA[ProcessMonitoringRemoveKPIMapping]]</String>
+        <String type="System.String">![CDATA[ProcessMonitoringChangeToAutomaticProcesses]]</String>
+        <String type="System.String">![CDATA[ConnectivityChromeMsgUpdateGnDescriptors]]</String>
+      </ConverterIDs>
+      <VersionHistory>
+        <String type="System.String">![CDATA[6.4.0.4896]]</String>
+      </VersionHistory>
+    </VersionConverterInfo>
+    <CompileUnit type="Studio.Dom.CompileUnit">
+      <ReferencedAssemblies>
+        <String type="System.String">![CDATA[Direct.Shared.dll]]</String>
+        <String type="System.String">![CDATA[Direct.Interface.dll]]</String>
+        <String type="System.String">![CDATA[Direct.Shared.Library.dll]]</String>
+        <String type="System.String">![CDATA[Direct.Common.Library.dll]]</String>
+        <String type="System.String">![CDATA[Direct.Workflow.Library.dll]]</String>
+        <String type="System.String">![CDATA[Connectivity.Shared.dll]]</String>
+        <String type="System.String">![CDATA[Direct.Win32Ops.Library.dll]]</String>
+        <String type="System.String">![CDATA[Direct.Office2007.Library.dll]]</String>
+        <String type="System.String">![CDATA[Direct.Vsd.Library.dll]]</String>
+        <String type="System.String">![CDATA[ConnectivityWatcher.dll]]</String>
+        <String type="System.String">![CDATA[Direct.SOAPListener.dll]]</String>
+      </ReferencedAssemblies>
+      <Children>
+        <Namespace type="Studio.Dom.Namespace">
+          <Name type="System.String">![CDATA[namespace_YMLGiN6Bj4kU0jegSkdQ3Q]]</Name>
+          <Children>
+            <DomObjectData type="Studio.Dom.DomObjectData">
+              <Index type="System.Int32">![CDATA[0]]</Index>
+            </DomObjectData>
+            <ProjectDeclaration type="Studio.Dom.ProjectDeclaration">
+              <Orientation type="System.String">![CDATA[Classic]]</Orientation>
+              <Environment type="System.String">![CDATA[Development]]</Environment>
+              <AutoUpdateFolder type="Studio.Dom.AutoUpdateFolder">
+                <ID type="System.String">![CDATA[default]]</ID>
+                <Name type="System.String">![CDATA[default]]</Name>
+              </AutoUpdateFolder>
+              <IsSingleton type="System.Boolean">![CDATA[False]]</IsSingleton>
+              <IsTemplateProject type="System.Boolean">![CDATA[False]]</IsTemplateProject>
+              <IsAbstract type="System.Boolean">![CDATA[False]]</IsAbstract>
+              <Attributes type="System.CodeDom.MemberAttributes">![CDATA[4098]]</Attributes>
+              <Name type="System.String">![CDATA[dproj_YMLGiN6Bj4kU0jegSkdQ3Q]]</Name>
+              <Children>
+                <AttributeDeclaration type="Studio.Dom.AttributeDeclaration">
+                  <Name type="System.String">![CDATA[About]]</Name>
+                  <Children>
+                    <AttributeArgument type="Studio.Dom.AttributeArgument">
+                      <Name type="System.String">![CDATA[Author]]</Name>
+                      <Value type="Studio.Dom.PrimitiveExpression">
+                        <Value type="System.String">![CDATA[RCORCORA]]</Value>
+                      </Value>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[0]]</Index>
+                        </DomObjectData>
+                      </Children>
+                    </AttributeArgument>
+                    <AttributeArgument type="Studio.Dom.AttributeArgument">
+                      <Name type="System.String">![CDATA[Modifier]]</Name>
+                      <Value type="Studio.Dom.PrimitiveExpression">
+                        <Value type="System.String">![CDATA[]]</Value>
+                      </Value>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[1]]</Index>
+                        </DomObjectData>
+                      </Children>
+                    </AttributeArgument>
+                    <AttributeArgument type="Studio.Dom.AttributeArgument">
+                      <Name type="System.String">![CDATA[Description]]</Name>
+                      <Value type="Studio.Dom.PrimitiveExpression">
+                        <Value type="System.String">![CDATA[]]</Value>
+                      </Value>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[2]]</Index>
+                        </DomObjectData>
+                      </Children>
+                    </AttributeArgument>
+                    <AttributeArgument type="Studio.Dom.AttributeArgument">
+                      <Name type="System.String">![CDATA[Created]]</Name>
+                      <Value type="Studio.Dom.PrimitiveExpression">
+                        <Value type="System.DateTime">![CDATA[09/05/2018 09:41:54]]</Value>
+                      </Value>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[3]]</Index>
+                        </DomObjectData>
+                      </Children>
+                    </AttributeArgument>
+                    <AttributeArgument type="Studio.Dom.AttributeArgument">
+                      <Name type="System.String">![CDATA[Modified]]</Name>
+                      <Value type="Studio.Dom.PrimitiveExpression">
+                        <Value type="System.DateTime">![CDATA[09/05/2018 09:42:18]]</Value>
+                      </Value>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[4]]</Index>
+                        </DomObjectData>
+                      </Children>
+                    </AttributeArgument>
+                    <DomObjectData type="Studio.Dom.DomObjectData">
+                      <Index type="System.Int32">![CDATA[0]]</Index>
+                    </DomObjectData>
+                  </Children>
+                </AttributeDeclaration>
+                <AttributeDeclaration type="Studio.Dom.AttributeDeclaration">
+                  <Name type="System.String">![CDATA[DirectDom]]</Name>
+                  <Children>
+                    <AttributeArgument type="Studio.Dom.AttributeArgument">
+                      <Name type="System.String">![CDATA[DisplayName]]</Name>
+                      <Value type="Studio.Dom.PrimitiveExpression">
+                        <Value type="System.String">![CDATA[Jirian_SE]]</Value>
+                      </Value>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[0]]</Index>
+                        </DomObjectData>
+                      </Children>
+                    </AttributeArgument>
+                    <DomObjectData type="Studio.Dom.DomObjectData">
+                      <Index type="System.Int32">![CDATA[1]]</Index>
+                    </DomObjectData>
+                  </Children>
+                </AttributeDeclaration>
+                <MemberMethod type="Studio.Dom.MemberMethod">
+                  <ReturnType type="Studio.Dom.TypeReference">
+                    <BaseType type="System.String">![CDATA[None]]</BaseType>
+                    <ArrayRank type="System.Int32">![CDATA[0]]</ArrayRank>
+                    <Options type="System.CodeDom.CodeTypeReferenceOptions">![CDATA[0]]</Options>
+                  </ReturnType>
+                  <Attributes type="System.CodeDom.MemberAttributes">![CDATA[Private]]</Attributes>
+                  <Name type="System.String">![CDATA[InitializeComponent]]</Name>
+                  <Children>
+                    <AttributeDeclaration type="Studio.Dom.AttributeDeclaration">
+                      <Name type="System.String">![CDATA[About]]</Name>
+                      <Children>
+                        <AttributeArgument type="Studio.Dom.AttributeArgument">
+                          <Name type="System.String">![CDATA[Author]]</Name>
+                          <Value type="Studio.Dom.PrimitiveExpression">
+                            <Value type="System.String">![CDATA[RCORCORA]]</Value>
+                          </Value>
+                          <Children>
+                            <DomObjectData type="Studio.Dom.DomObjectData">
+                              <Index type="System.Int32">![CDATA[0]]</Index>
+                            </DomObjectData>
+                          </Children>
+                        </AttributeArgument>
+                        <AttributeArgument type="Studio.Dom.AttributeArgument">
+                          <Name type="System.String">![CDATA[Modifier]]</Name>
+                          <Value type="Studio.Dom.PrimitiveExpression">
+                            <Value type="System.String">![CDATA[]]</Value>
+                          </Value>
+                          <Children>
+                            <DomObjectData type="Studio.Dom.DomObjectData">
+                              <Index type="System.Int32">![CDATA[1]]</Index>
+                            </DomObjectData>
+                          </Children>
+                        </AttributeArgument>
+                        <AttributeArgument type="Studio.Dom.AttributeArgument">
+                          <Name type="System.String">![CDATA[Description]]</Name>
+                          <Value type="Studio.Dom.PrimitiveExpression">
+                            <Value type="System.String">![CDATA[]]</Value>
+                          </Value>
+                          <Children>
+                            <DomObjectData type="Studio.Dom.DomObjectData">
+                              <Index type="System.Int32">![CDATA[2]]</Index>
+                            </DomObjectData>
+                          </Children>
+                        </AttributeArgument>
+                        <AttributeArgument type="Studio.Dom.AttributeArgument">
+                          <Name type="System.String">![CDATA[Created]]</Name>
+                          <Value type="Studio.Dom.PrimitiveExpression">
+                            <Value type="System.DateTime">![CDATA[09/05/2018 09:41:54]]</Value>
+                          </Value>
+                          <Children>
+                            <DomObjectData type="Studio.Dom.DomObjectData">
+                              <Index type="System.Int32">![CDATA[3]]</Index>
+                            </DomObjectData>
+                          </Children>
+                        </AttributeArgument>
+                        <AttributeArgument type="Studio.Dom.AttributeArgument">
+                          <Name type="System.String">![CDATA[Modified]]</Name>
+                          <Value type="Studio.Dom.PrimitiveExpression">
+                            <Value type="System.DateTime">![CDATA[09/05/2018 09:42:18]]</Value>
+                          </Value>
+                          <Children>
+                            <DomObjectData type="Studio.Dom.DomObjectData">
+                              <Index type="System.Int32">![CDATA[4]]</Index>
+                            </DomObjectData>
+                          </Children>
+                        </AttributeArgument>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[0]]</Index>
+                        </DomObjectData>
+                      </Children>
+                    </AttributeDeclaration>
+                    <DomObjectData type="Studio.Dom.DomObjectData">
+                      <Index type="System.Int32">![CDATA[0]]</Index>
+                    </DomObjectData>
+                    <AssignStatement type="Studio.Dom.AssignStatement">
+                      <Left type="Studio.Dom.FieldReferenceExpression">
+                        <FieldName type="System.String">![CDATA[ScreenElementsTree_dproj_YMLGiN6Bj4kU0jegSkdQ3Q]]</FieldName>
+                        <TargetObject type="Studio.Dom.ThisReferenceExpression">
+                          <Type type="Studio.Dom.TypeReference">
+                            <BaseType type="System.String">![CDATA[$Project]]</BaseType>
+                            <ArrayRank type="System.Int32">![CDATA[0]]</ArrayRank>
+                            <Options type="System.CodeDom.CodeTypeReferenceOptions">![CDATA[0]]</Options>
+                          </Type>
+                        </TargetObject>
+                      </Left>
+                      <Right type="Studio.Dom.ObjectCreateExpression">
+                        <CreateType type="Studio.Dom.TypeReference">
+                          <BaseType type="System.String">![CDATA[dproj_BAC0O5jrwhyQLTD1GIsDw.Connectivity.GnDescriptorTree]]</BaseType>
+                          <ArrayRank type="System.Int32">![CDATA[0]]</ArrayRank>
+                          <Options type="System.CodeDom.CodeTypeReferenceOptions">![CDATA[0]]</Options>
+                        </CreateType>
+                      </Right>
+                      <IsRemarked type="System.Boolean">![CDATA[False]]</IsRemarked>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[0]]</Index>
+                          <Key type="System.String">![CDATA[Statements]]</Key>
+                        </DomObjectData>
+                      </Children>
+                    </AssignStatement>
+                    <CommentStatement type="Studio.Dom.CommentStatement">
+                      <Comment type="Studio.Dom.Comment">
+                        <DocComment type="System.Boolean">![CDATA[False]]</DocComment>
+                        <Text type="System.String">![CDATA[]]</Text>
+                      </Comment>
+                      <CommentAsString type="System.String">![CDATA[]]</CommentAsString>
+                      <IsRemarked type="System.Boolean">![CDATA[False]]</IsRemarked>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[1]]</Index>
+                          <Key type="System.String">![CDATA[Statements]]</Key>
+                        </DomObjectData>
+                      </Children>
+                    </CommentStatement>
+                    <CommentStatement type="Studio.Dom.CommentStatement">
+                      <Comment type="Studio.Dom.Comment">
+                        <DocComment type="System.Boolean">![CDATA[False]]</DocComment>
+                        <Text type="System.String">![CDATA[ScreenElementsTree_dproj_YMLGiN6Bj4kU0jegSkdQ3Q]]</Text>
+                      </Comment>
+                      <CommentAsString type="System.String">![CDATA[ScreenElementsTree_dproj_YMLGiN6Bj4kU0jegSkdQ3Q]]</CommentAsString>
+                      <IsRemarked type="System.Boolean">![CDATA[False]]</IsRemarked>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[2]]</Index>
+                          <Key type="System.String">![CDATA[Statements]]</Key>
+                        </DomObjectData>
+                      </Children>
+                    </CommentStatement>
+                    <CommentStatement type="Studio.Dom.CommentStatement">
+                      <Comment type="Studio.Dom.Comment">
+                        <DocComment type="System.Boolean">![CDATA[False]]</DocComment>
+                        <Text type="System.String">![CDATA[]]</Text>
+                      </Comment>
+                      <CommentAsString type="System.String">![CDATA[]]</CommentAsString>
+                      <IsRemarked type="System.Boolean">![CDATA[False]]</IsRemarked>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[3]]</Index>
+                          <Key type="System.String">![CDATA[Statements]]</Key>
+                        </DomObjectData>
+                      </Children>
+                    </CommentStatement>
+                    <AssignStatement type="Studio.Dom.AssignStatement">
+                      <Left type="Studio.Dom.PropertyReferenceExpression">
+                        <PropertyName type="System.String">![CDATA[Name]]</PropertyName>
+                        <TargetObject type="Studio.Dom.FieldReferenceExpression">
+                          <FieldName type="System.String">![CDATA[ScreenElementsTree_dproj_YMLGiN6Bj4kU0jegSkdQ3Q]]</FieldName>
+                          <TargetObject type="Studio.Dom.ThisReferenceExpression">
+                            <Type type="Studio.Dom.TypeReference">
+                              <BaseType type="System.String">![CDATA[$Project]]</BaseType>
+                              <ArrayRank type="System.Int32">![CDATA[0]]</ArrayRank>
+                              <Options type="System.CodeDom.CodeTypeReferenceOptions">![CDATA[0]]</Options>
+                            </Type>
+                          </TargetObject>
+                        </TargetObject>
+                      </Left>
+                      <Right type="Studio.Dom.PrimitiveExpression">
+                        <Value type="System.String">![CDATA[ScreenElementsTree_dproj_YMLGiN6Bj4kU0jegSkdQ3Q]]</Value>
+                      </Right>
+                      <IsRemarked type="System.Boolean">![CDATA[False]]</IsRemarked>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[4]]</Index>
+                          <Key type="System.String">![CDATA[Statements]]</Key>
+                        </DomObjectData>
+                      </Children>
+                    </AssignStatement>
+                    <AssignStatement type="Studio.Dom.AssignStatement">
+                      <Left type="Studio.Dom.PropertyReferenceExpression">
+                        <PropertyName type="System.String">![CDATA[PreOrderCount]]</PropertyName>
+                        <TargetObject type="Studio.Dom.FieldReferenceExpression">
+                          <FieldName type="System.String">![CDATA[ScreenElementsTree_dproj_YMLGiN6Bj4kU0jegSkdQ3Q]]</FieldName>
+                          <TargetObject type="Studio.Dom.ThisReferenceExpression">
+                            <Type type="Studio.Dom.TypeReference">
+                              <BaseType type="System.String">![CDATA[$Project]]</BaseType>
+                              <ArrayRank type="System.Int32">![CDATA[0]]</ArrayRank>
+                              <Options type="System.CodeDom.CodeTypeReferenceOptions">![CDATA[0]]</Options>
+                            </Type>
+                          </TargetObject>
+                        </TargetObject>
+                      </Left>
+                      <Right type="Studio.Dom.PrimitiveExpression">
+                        <Value type="System.Int32">![CDATA[0]]</Value>
+                      </Right>
+                      <IsRemarked type="System.Boolean">![CDATA[False]]</IsRemarked>
+                      <Children>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[5]]</Index>
+                          <Key type="System.String">![CDATA[Statements]]</Key>
+                        </DomObjectData>
+                      </Children>
+                    </AssignStatement>
+                  </Children>
+                </MemberMethod>
+                <MemberField type="Studio.Dom.MemberField">
+                  <Type type="Studio.Dom.TypeReference">
+                    <BaseType type="System.String">![CDATA[dproj_BAC0O5jrwhyQLTD1GIsDw.Connectivity.GnDescriptorTree]]</BaseType>
+                    <ArrayRank type="System.Int32">![CDATA[0]]</ArrayRank>
+                    <Options type="System.CodeDom.CodeTypeReferenceOptions">![CDATA[0]]</Options>
+                  </Type>
+                  <Attributes type="System.CodeDom.MemberAttributes">![CDATA[4098]]</Attributes>
+                  <Name type="System.String">![CDATA[ScreenElementsTree_dproj_YMLGiN6Bj4kU0jegSkdQ3Q]]</Name>
+                  <Children>
+                    <AttributeDeclaration type="Studio.Dom.AttributeDeclaration">
+                      <Name type="System.String">![CDATA[About]]</Name>
+                      <Children>
+                        <AttributeArgument type="Studio.Dom.AttributeArgument">
+                          <Name type="System.String">![CDATA[Author]]</Name>
+                          <Value type="Studio.Dom.PrimitiveExpression">
+                            <Value type="System.String">![CDATA[RCORCORA]]</Value>
+                          </Value>
+                          <Children>
+                            <DomObjectData type="Studio.Dom.DomObjectData">
+                              <Index type="System.Int32">![CDATA[0]]</Index>
+                            </DomObjectData>
+                          </Children>
+                        </AttributeArgument>
+                        <AttributeArgument type="Studio.Dom.AttributeArgument">
+                          <Name type="System.String">![CDATA[Modifier]]</Name>
+                          <Value type="Studio.Dom.PrimitiveExpression">
+                            <Value type="System.String">![CDATA[]]</Value>
+                          </Value>
+                          <Children>
+                            <DomObjectData type="Studio.Dom.DomObjectData">
+                              <Index type="System.Int32">![CDATA[1]]</Index>
+                            </DomObjectData>
+                          </Children>
+                        </AttributeArgument>
+                        <AttributeArgument type="Studio.Dom.AttributeArgument">
+                          <Name type="System.String">![CDATA[Description]]</Name>
+                          <Value type="Studio.Dom.PrimitiveExpression">
+                            <Value type="System.String">![CDATA[]]</Value>
+                          </Value>
+                          <Children>
+                            <DomObjectData type="Studio.Dom.DomObjectData">
+                              <Index type="System.Int32">![CDATA[2]]</Index>
+                            </DomObjectData>
+                          </Children>
+                        </AttributeArgument>
+                        <AttributeArgument type="Studio.Dom.AttributeArgument">
+                          <Name type="System.String">![CDATA[Created]]</Name>
+                          <Value type="Studio.Dom.PrimitiveExpression">
+                            <Value type="System.DateTime">![CDATA[09/05/2018 09:41:56]]</Value>
+                          </Value>
+                          <Children>
+                            <DomObjectData type="Studio.Dom.DomObjectData">
+                              <Index type="System.Int32">![CDATA[3]]</Index>
+                            </DomObjectData>
+                          </Children>
+                        </AttributeArgument>
+                        <AttributeArgument type="Studio.Dom.AttributeArgument">
+                          <Name type="System.String">![CDATA[Modified]]</Name>
+                          <Value type="Studio.Dom.PrimitiveExpression">
+                            <Value type="System.DateTime">![CDATA[09/05/2018 09:41:56]]</Value>
+                          </Value>
+                          <Children>
+                            <DomObjectData type="Studio.Dom.DomObjectData">
+                              <Index type="System.Int32">![CDATA[4]]</Index>
+                            </DomObjectData>
+                          </Children>
+                        </AttributeArgument>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[0]]</Index>
+                        </DomObjectData>
+                      </Children>
+                    </AttributeDeclaration>
+                    <DomObjectData type="Studio.Dom.DomObjectData">
+                      <Index type="System.Int32">![CDATA[0]]</Index>
+                    </DomObjectData>
+                    <AttributeDeclaration type="Studio.Dom.AttributeDeclaration">
+                      <Name type="System.String">![CDATA[DirectDom]]</Name>
+                      <Children>
+                        <AttributeArgument type="Studio.Dom.AttributeArgument">
+                          <Name type="System.String">![CDATA[DisplayName]]</Name>
+                          <Value type="Studio.Dom.PrimitiveExpression">
+                            <Value type="System.String">![CDATA[Screen Elements]]</Value>
+                          </Value>
+                          <Children>
+                            <DomObjectData type="Studio.Dom.DomObjectData">
+                              <Index type="System.Int32">![CDATA[0]]</Index>
+                            </DomObjectData>
+                          </Children>
+                        </AttributeArgument>
+                        <DomObjectData type="Studio.Dom.DomObjectData">
+                          <Index type="System.Int32">![CDATA[1]]</Index>
+                        </DomObjectData>
+                      </Children>
+                    </AttributeDeclaration>
+                  </Children>
+                </MemberField>
+              </Children>
+            </ProjectDeclaration>
+          </Children>
+        </Namespace>
+      </Children>
+    </CompileUnit>
+  </DirectDom>
+</DirectDom>
